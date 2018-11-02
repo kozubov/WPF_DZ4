@@ -6,11 +6,12 @@ Select and add images by using the standard dialog. The file name and the size i
 
 Tips:
 
-Only one effect can be applied to one element. To apply two effects to a selected element (removing blur and appearing shadow), you need to use two nested layout managers: for one, one effect will be applied, for the other, another effect:
+1. Only one effect can be applied to one element. To apply two effects to a selected element (removing blur and appearing shadow), you need to use two nested layout managers: for one, one effect will be applied, for the other, another effect:
 
 ...
 <StackPanel.Effect>
 ...
 </StackPanel.Effect>
 
-Properties for animation effects: Storyboard.TargetProperty = "Effect. (BlurEffect.Radius)" Storyboard.TargetProperty = "Effect. (DropShadowEffect.Opacity)" 3. Events for trigger events: MouseEnter, MouseLeave
+2. Animation Properties effects: Storyboard.TargetProperty = "Effect. (BlurEffect.Radius)" Storyboard.TargetProperty = "Effect. (DropShadowEffect.Opacity)" 
+3. Events for trigger events: MouseEnter, MouseLeave
